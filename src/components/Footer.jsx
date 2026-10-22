@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link";
 import { FiGithub, FiTwitter, FiLinkedin } from "react-icons/fi";
 
@@ -118,7 +120,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-border/40 text-center text-xs text-foreground/50">
-          © {new Date().getFullYear()} StoreForge. All rights reserved.
+          © 2026 StoreForge. All rights reserved.
         </div>
       </div>
     </footer>

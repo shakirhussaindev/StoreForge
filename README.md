@@ -60,7 +60,7 @@ StoreForge is a modern, responsive web application built with **Next.js (App Rou
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/storeforge.git](https://github.com/your-username/storeforge.git)
+git clone [https://github.com/shakirhussaindev/StoreForge](https://github.com/shakirhussaindev/StoreForge)
 cd storeforge
 2. Install DependenciesBashnpm install
 3. Setup Environment VariablesCreate a .env.local file in the root directory and insert your Firebase Web Configuration keys:Code snippetNEXT_PUBLIC_FIREBASE_API_KEY=your_api_key_here
