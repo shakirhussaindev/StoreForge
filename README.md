@@ -60,18 +60,40 @@ StoreForge is a modern, responsive web application built with **Next.js (App Rou
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/shakirhussaindev/StoreForge](https://github.com/shakirhussaindev/StoreForge)
+git clone https://github.com/shakirhussaindev/StoreForge.git
 cd storeforge
-2. Install DependenciesBashnpm install
-3. Setup Environment VariablesCreate a .env.local file in the root directory and insert your Firebase Web Configuration keys:Code snippetNEXT_PUBLIC_FIREBASE_API_KEY=your_api_key_here
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Setup Environment Variables
+
+Create a `.env.local` file in the root directory and insert your Firebase Web Configuration keys:
+
+```env
+NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key_here
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
 NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
 NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
 NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
-Note: Ensure Email/Password and Google sign-in providers are enabled in your Firebase Console under Authentication > Sign-in method.4. Run the Development ServerBashnpm run dev
-Open http://localhost:3000 in your browser to view the application.
+```
 
+> **Note:** Ensure Email/Password and Google sign-in providers are enabled in your Firebase Console under **Authentication > Sign-in method**.
+
+### 4. Run the Development Server
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+
+---
 
 ## 🗺️ Route Summary
 
