@@ -71,3 +71,17 @@ NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
 Note: Ensure Email/Password and Google sign-in providers are enabled in your Firebase Console under Authentication > Sign-in method.4. Run the Development ServerBashnpm run dev
 Open http://localhost:3000 in your browser to view the application.
+
+
+## 🗺️ Route Summary
+
+| Route | Access | Description |
+| :--- | :--- | :--- |
+| `/` | Public | Landing page featuring all 7 sections (Navbar, Hero, Features, Featured Items, Testimonials, Promo Banner, Footer). |
+| `/items` | Public | Product catalog with live search, category filter, price filter, and responsive grid. |
+| `/items/[id]` | Public | Dynamic item details page with full descriptions, specifications, and related items. |
+| `/about` | Public | About the company, mission statement, core pillars, and overview. |
+| `/login` | Public | Account authentication with email/password, password visibility toggle, and Google sign-in. |
+| `/register` | Public | Account registration form with password confirmation and Google sign-up. |
+| `/items/add` | **Protected** | Accessible only when authenticated. Form to submit new products with validation and feedback toast. |
+| `/items/manage` | **Protected** | Accessible only when authenticated. Table/grid view to inspect items and perform deletion. |
